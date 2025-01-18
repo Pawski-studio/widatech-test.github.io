@@ -235,7 +235,7 @@ border-radius: var(--border-radius-circle);
 
             .about-section .about-details .text {
                 line-height: 30px;
-                margin: 50px 0 30px;
+                margin: 50px -100px 30px -100px;
                 text-align: center;
                 font-size: var(--font-size-m);
             } 
@@ -349,7 +349,7 @@ font-size: var(--font-size-l);
 }
 
 .hero-section .hero-image-wrapper{
-    max-width: 270px;
+    max-width: 300px;
     margin-right: 0;
 }
 

@@ -235,7 +235,7 @@ border-radius: var(--border-radius-circle);
 
             .about-section .about-details .text {
                 line-height: 30px;
-                margin: 50px -100px 30px -100px;
+                margin: 50px -70px 30px -70px;
                 text-align: center;
                 font-size: var(--font-size-m);
             } 
@@ -337,7 +337,7 @@ font-size: var(--font-size-l);
 
 .hero-section .hero-details :is(.subtitle, .description) {
     position: absolute;
-            top: 55%;
+            top: 65%;
             left: 50%;
             transform: translate(-50%, -50%);
     max-width: 100%;

@@ -134,7 +134,7 @@ header .navbar{
         }
         
         .navbar .nav-menu .nav-link:hover {
-            background: var(--secondary-color);
+            background: #C19A6B;
             color: var(--primary-color);
         }
 
@@ -163,8 +163,8 @@ header .navbar{
 
         .hero-section .hero-details .title{
 font-size: var(--font-size-xxl);
-color: var(--secondary-color);
-font-family: "Miniver", sans-serif;
+color:  #C19A6B;
+/* font-family: "Miniver", sans-serif; */
         }
 
         .hero-section .hero-details .subtitle{
@@ -199,8 +199,9 @@ max-width: 70%;
             min-width: 100%;
         min-height: 100%;
         z-index: -1;
-zoom: 140%;
-            }
+zoom: 100%;
+filter: opacity(85%);
+}
 
             .about-section {
                 padding: 120px 0;

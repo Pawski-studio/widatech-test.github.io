@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
         box-sizing: border-box;
-        font-family: "Poppins", sans-serif;
+        font-family: 'Poppins', sans-serif;
 }
 
 :root {
@@ -369,3 +369,43 @@ font-size: var(--font-size-l);
 
 }
             
+
+.map-section  {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(12,12,12);
+    
+}
+
+.map-section .section-content{
+    max-width: 600px;
+}
+
+.map-section .section-content .map-title {
+    
+    font-size: 4.5rem;
+    color: #C19A6B;
+}
+
+.map-section .map-pin {
+    margin-right: 10%;
+border-radius: 1em;
+border: none;
+width: 500px;
+height: 500px;
+opacity: 0.9;
+transition: 0.3s ease-in-out;
+
+}
+
+.map-section .section-content .map-des {
+    font-size: 1.2rem;
+        color: white;
+}
+
+.map-section .map-pin:hover {
+    transform: scale(1.06);
+    opacity: 1;
+}

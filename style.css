@@ -397,6 +397,16 @@ font-size: var(--font-size-l);
 }
 */
 
+.hero-section .hero-details .title {
+    font-size: 2rem;
+
+}
+
+.hero-section .hero-details .subtitle {
+    font-size: 1.3rem;
+
+}
+
 .hero-section .section-content .hero-details{
     padding: 30px 100px 30px;
     justify-content: center;

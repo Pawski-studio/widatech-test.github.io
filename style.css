@@ -225,7 +225,10 @@ zoom: 50%;
 width: 550px;
 height: 550px;
 object-fit: cover;
-border-radius: var(--border-radius-circle);
+border-radius: 5rem;
+/* border-radius: var(--border-radius-circle); */
+
+
 
             }
 
@@ -258,18 +261,6 @@ border-radius: var(--border-radius-circle);
 .about-section .social-link-list .social-link:hover {
     color: var(--secondary-color);
 }
-
-
-
-
-
-    /* ZMIANY ROZDZIELCZOSCI NA MOBILNYCH EKRANACH */
-
-  
-    
-
-            
-
 
 
 .map-section  {
@@ -312,7 +303,14 @@ transition: 0.3s ease-in-out;
 }
 
 
+
+    /* ZMIANY ROZDZIELCZOSCI NA MOBILNYCH EKRANACH */
+    /* ZMIANY ROZDZIELCZOSCI NA MOBILNYCH EKRANACH */
+    /* ZMIANY ROZDZIELCZOSCI NA MOBILNYCH EKRANACH */
+    /* ZMIANY ROZDZIELCZOSCI NA MOBILNYCH EKRANACH */
+
 @media screen and (max-width: 900px) {
+   
     :root {
         --font-size-m: 1rem;
         --font-size-l: 1.3rem;
@@ -430,11 +428,20 @@ font-size: var(--font-size-l);
     font-size: 2.8rem;
     text-align: center;
     margin-top: 40px;
+
 }
 
-.map-section .section-content .map-pin {
-    width: 150px;
-height: 150px;
+.map-section .section-content .map-des {
+    font-size: 1rem;
+    text-align: center;
+    
+}
+
+.map-section .map-pin {
+    max-width: 300px;
+    max-height: 300px;
+    align-items: center;
+    margin-right: 0;
 }
 
 }

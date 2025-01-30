@@ -371,6 +371,8 @@ margin-top: 17px;
 font-size: var(--font-size-l);
 }
 
+
+/*
 .hero-section .section-content{
     gap: 50px;
     text-align: center;
@@ -378,24 +380,30 @@ font-size: var(--font-size-l);
     flex-direction: column-reverse;
     justify-content: center;
 }
-
+/*
 .hero-section .hero-details :is(.title){
     position: absolute;
             top: 35%;
             left: 50%;
             transform: translate(-50%, -50%);
     max-width: 100%;
-    
 }
-
 .hero-section .hero-details :is(.subtitle, .description) {
     position: absolute;
-            top: 65%;
+            top: 73%;
             left: 50%;
             transform: translate(-50%, -50%);
     max-width: 100%;
-    
 }
+*/
+
+.hero-section .section-content .hero-details{
+    padding: 30px 100px 30px;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
 
 .hero-section .hero-details .buttons {
     justify-content: center;

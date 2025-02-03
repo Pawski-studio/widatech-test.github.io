@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>WideTech | Brukarstwo</title>
+        <title>WidaTech | Brukarstwo</title>
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
         
@@ -30,13 +30,13 @@
                    <!--     <a href="#" class="nav-link">Start</a> -->
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">O nas</a>
+                        <a href="#section1" class="nav-link">Strona główna</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Nasze projekty</a>
+                        <a href="#section2" class="nav-link">Nasze projekty</a>
                   </li>
                       <li class="nav-item">
-                        <a href="#" class="nav-link">Kontakt</a>
+                        <a href="#section3" class="nav-link">Kontakt</a>
                     </li> 
                <!--     <li class="nav-item">
                         <a href="#" class="nav-link">Kontakt</a>
@@ -53,7 +53,7 @@
 
         <main>
             <!-- Hero/ section-->
-            <section class="hero-section">
+            <section id="section1" class="hero-section">
                 <div class="section-content">
                     <div class="hero-details">
                         <h2 class="title">Nasza specjalizacja to brukarstwo</h2>
@@ -72,24 +72,38 @@
                     </div>    -->
                                     </div>
             </section>
+                        <!-- Galeria zdjec -->
 
-            <!-- About section -->
-    <section class="about-section">
+            <section id="section2" class="slider-container">
+                <div class="slider-wrapper">
+                    <h2 class="section-title">Nasze projekty</h2>
+<p class="text"> WidaTech - zadebiutowaliśmy na rynku w 2024 rokui choć jesteśmy stosunkowo nowi to już teraz cieszymy się dużym zaufaniem klientów i mamy na swoim koncie wiele zrealizowanych zleceń. Oto nasze przykładowe realizacje:
+                    <div class="slider">
+                        
+                        <img id="slide-1" src="images/promo1ed.jpg" alt="promo1" />
+                        <img id="slide-2" src="images/promo2ed.jpg" alt="promo2" />
+                        <img id="slide-3" src="images/promo3ed.jpg" alt="promo3" />
+                        <img id="slide-4" src="images/promo7ed.jpg" alt="promo7s" />
+                    </div>
+                    <div class="slider-nav">
+                        <a href="#slide-1"></a>
+                        <a href="#slide-2"></a>
+                        <a href="#slide-3"></a>
+                        <a href="#slide-4"></a>
+                    </div>
+                </div>
+            </section>
+            <!-- About section , na razie nie przydatne -->
+   <!-- <section class="about-section">
         <div class="section-content">
     <div class="about-image-wrapper">
     <img src="images/p2.jpg" alt="About" class="about-image">
 </div>
 <div class="about-details">
-<h2 class="section-title">O nas</h2>
-<p class="text"> WidaTech - nasza firma, która debiut miała na rynku już w 2024 roku. Choć jesteśmy stosunkowo nowi to już teraz cieszymy się dużym zaufaniem klientów i mamy na swoim koncie wiele zrealizowanych zleceń. Nasz zespół składa się z wykwalifikowanych specjalistów z wieloletnim doświadczeniem w branży, co przekłada się na najwyższą jakość usług.
-
-    Naszą specjalnością jest kompleksowe układanie kostki brukowej, w tym:
-        - Podjazdy i alejki do domów prywatnych.
-        - Tarasy, chodniki i ścieżki ogrodowe.
-        - Place przemysłowe i parkingi.
-        - Projekty na zamówienie, w tym układy dekoracyjne z kostki brukowej.
+<h2 class="section-title">Nasze projekty</h2>
+<p class="text"> WidaTech - zadebiutowaliśmy na rynku w 2024 rokui choć jesteśmy stosunkowo nowi to już teraz cieszymy się dużym zaufaniem klientów i mamy na swoim koncie wiele zrealizowanych zleceń. Oto nasze przykładowe realizacje:
 </p>
-<!-- <div class="social-link-list"> 
+ <div class="social-link-list"> 
     <a href="#" class="social-link"><i class="fa fa-brands facebook"></i></a> 
     <a href="#" class="social-link"><i class="fa fa-brands instagram"></i></a>
     <a href="#" class="social-link"><i class="fa fa-brands twitter"></i></a>
@@ -98,8 +112,10 @@
 </div>
     </section> 
 
+
+
                 <!-- Gallery section -->
-<section class="map-section">
+<section id="section3" class="map-section">
 <div class="section-content">
 <h1 class="map-title"> Lokalizacja </h1>
 <p class="map-des"> Na tą chwilę działamy lokalnie i mamy cały grafik zamówień. Gdy nasze siły przerobowe się zwiększą udostępnimy kontakt tak żeby działać na większą skalę. </p></div>
@@ -108,9 +124,6 @@
 
 </section>
         </main> 
-
-        <script src="script.js"></script>
-        
         <footer>
         <div class="footer-content">
                 <h3>WIDATECH - BRUKARSTWO</h3>
@@ -137,5 +150,8 @@
                     
                 </div>
                </footer> 
+
+
+               <script src="script.js"></script>
     </body>
 </html>

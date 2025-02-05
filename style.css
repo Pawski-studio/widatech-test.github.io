@@ -15,7 +15,7 @@ html {
 footer{
     background: #14243b;
     height: auto;
-    width: 100vw;
+    width: 100%;
     padding-top: 40px;
     color: #fff;
 
@@ -244,7 +244,7 @@ color: #fff;
 
 .slider-wrapper {
 	position: relative;
-	max-width: 56rem;
+	max-width: 72rem;
 	margin: 0 auto;
 }
 .slider {
@@ -435,7 +435,7 @@ transition: 0.3s ease-in-out;
 
 .footer-bottom{
     background: #14243b;
-    width: 100vw;
+    width: 100%;
     padding: 0 0 30px;
     text-align: center;
 }
